@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Wed, 23 Mar 2022 14:57:43 +0100
+Source: hello
+Binary: hello
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.10-2ubuntu4
+Distribution: jammy
+Urgency: medium
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>
+Description:
+ hello      - example package based on GNU hello
+Changes:
+ hello (2.10-2ubuntu4) jammy; urgency=medium
+ .
+   * No-change rebuild for ppc64el baseline bump.
+Checksums-Sha1:
+ fd4ec1c7532db56af63ef89cb0ea24893632c46e 27526 hello-dbgsym_2.10-2ubuntu4_amd64.ddeb
+ 79c5158394e6dd5484e87b07e5673fcb346b10cf 6245 hello_2.10-2ubuntu4_amd64.buildinfo
+ 29b6d2616dc0ffb8f388371277ba3f420715479c 53418 hello_2.10-2ubuntu4_amd64.deb
+Checksums-Sha256:
+ 2153c4ce0b01de108d38396379bb5d96d5ec1730bbf16be07a0a7641df84226a 27526 hello-dbgsym_2.10-2ubuntu4_amd64.ddeb
+ d5f1e69e376b872ef594bced13af09d278d1f18995527dc17a3fe51959402dd4 6245 hello_2.10-2ubuntu4_amd64.buildinfo
+ aecaab36de4200d66ef33ec2d5c2133414f1eebc8c716c07d594bf4c5883738f 53418 hello_2.10-2ubuntu4_amd64.deb
+Files:
+ 7f3f5142a28deb191da2f6908bcedbe2 27526 debug optional hello-dbgsym_2.10-2ubuntu4_amd64.ddeb
+ cf4b93db2e0c633fe71448259f65ee15 6245 devel optional hello_2.10-2ubuntu4_amd64.buildinfo
+ 0cd6144b11742c424b17cae71232b891 53418 devel optional hello_2.10-2ubuntu4_amd64.deb
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
