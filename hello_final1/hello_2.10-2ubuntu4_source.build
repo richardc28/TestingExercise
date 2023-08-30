@@ -1,0 +1,24 @@
+ dpkg-buildpackage -us -uc -ui -S -sd
+dpkg-buildpackage: info: source package hello
+dpkg-buildpackage: info: source version 2.10-2ubuntu4
+dpkg-buildpackage: info: source distribution jammy
+dpkg-buildpackage: info: source changed by Łukasz 'sil2100' Zemczak <lukasz.zemczak@ubuntu.com>
+ dpkg-source --before-build .
+ debian/rules clean
+dh clean
+dh: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+   debian/rules override_dh_auto_clean
+make[1]: Entering directory '/home/rich/inter_exercise/TestingExercise/hello_final1/hello-2.10'
+[ ! -f Makefile ] || /usr/bin/make distclean
+make[1]: Leaving directory '/home/rich/inter_exercise/TestingExercise/hello_final1/hello-2.10'
+   dh_clean
+dh_clean: warning: Compatibility levels before 10 are deprecated (level 9 in use)
+ dpkg-source -b .
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building hello using existing ./hello_2.10.orig.tar.gz
+dpkg-source: info: local changes detected, the modified files are:
+ hello-2.10/testing.sh
+dpkg-source: error: aborting due to unexpected upstream changes, see /tmp/hello_2.10-2ubuntu4.diff.p4d79C
+dpkg-source: info: Hint: make sure the version in debian/changelog matches the unpacked source tree
+dpkg-source: info: you can integrate the local changes with dpkg-source --commit
+dpkg-buildpackage: error: dpkg-source -b . subprocess returned exit status 2

@@ -1,0 +1,45 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Format: 1.8
+Date: Tue, 29 Aug 2023 16:49:25 +0800
+Source: hello
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 2.10-2ubuntu5
+Distribution: jammy
+Urgency: medium
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: Richard Chung <newtype28@gmail.com>
+Changes:
+ hello (2.10-2ubuntu5) jammy; urgency=medium
+ .
+   * Local practice
+Checksums-Sha1:
+ ed2b11b36f3aaf0fda9206426149eb409d75fb80 1664 hello_2.10-2ubuntu5.dsc
+ 9d3c7a9a36e74c9e0b08c85612144314149954ad 7292 hello_2.10-2ubuntu5.debian.tar.xz
+ 503ce4668497d66d7c12a8735ccd4fd89ddf1f4e 6661 hello_2.10-2ubuntu5_source.buildinfo
+Checksums-Sha256:
+ e04642a3c946eac13ea6a18d03fe008ddcb5eef2e65b303edd06a829c48ec0f8 1664 hello_2.10-2ubuntu5.dsc
+ 99938546956a227e85da3c33031b2b54834acfcbffb3727ebc488fa7624e8f28 7292 hello_2.10-2ubuntu5.debian.tar.xz
+ 28465d1fc2e4929bfaf0ed98e51ffe5d29b0f50d4389f042c47f4553b95434de 6661 hello_2.10-2ubuntu5_source.buildinfo
+Files:
+ c14b1ea4c209576e787e9f6fd1744596 1664 devel optional hello_2.10-2ubuntu5.dsc
+ 7ea57a893e79256983c610ca6541f9ef 7292 devel optional hello_2.10-2ubuntu5.debian.tar.xz
+ 0ebeca8b9584d454a373e0d9badf8cd7 6661 devel optional hello_2.10-2ubuntu5_source.buildinfo
+Original-Maintainer: Santiago Vila <sanvila@debian.org>
+
+-----BEGIN PGP SIGNATURE-----
+
+iQHIBAEBCgAyFiEEWZADQHIit8G96Oig4jLqdf1Ps+EFAmTtsdIUHG5ld3R5cGUy
+OEBnbWFpbC5jb20ACgkQ4jLqdf1Ps+GKZAv/UwuBKE+m+PUEQxSBew+2vzXMMTqU
+kgwHvNSu7TZu1sd7WmFg3ri2ChMlg3Y51y5cUrNvWDP43JcARzXGwmfhpmB/SDY6
+C+rmNkaDp2K9SEtp34ANoIWhqsU8q0qaW4xnfkLnjnVTNYwCCxEbSCXLXHH94i2v
+N+4HZ5XPMS/j+OFH+/8XBbVaKesRDx/0+97/7Ximq6YBZte5IGKHzuN19y+1yOJb
+JUHZGLi1fSYboKiv3gVSuwCH0OYzXmG4fd9osB8BxF3HYsOiuORMwVZ5KV24wgQG
+SNJwbIDzMTN2cMULjfTGyGQYdlp7ZBvm5Ym+CjgOVPARHCZ9QI/UcMSdpk/XE+rr
+okH5Rfs0KnLUitDAY2T11Jco9YC8AKW/A7O71pGJ7/zzhQNWW6aTIEBOU0iHnKnU
+UK5CRqsNhqkmyCM3tFRPifdkDWDloQY54r5e/G4nEr8N8Uro+oMnUOYSQaGrFLpS
+qffWH0HNYtm+tdHPWCen2kAvAZpSVfflyczU
+=qRV4
+-----END PGP SIGNATURE-----
